@@ -1,0 +1,86 @@
+package com.cognizant.vehicle.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.text.ParseException;
+import java.util.Date;
+
+import com.cognizant.vehicle.model.Vehicle;
+
+
+
+public class VehicleDaoImpl implements VehicleDao {
+
+	
+
+	@Override
+	public void addVehicle(Vehicle v) throws ParseException {
+		Connection con = ConnectionHandler.getConnection();
+		
+		try {
+			String sql = "insert into vehicle  values(?,?,?,?,?,?,?,?,?)";
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setString(1, v.getVehicleNumber());
+			ps.setString(2,v.getName() );
+			ps.setString(3, v.getColor());
+			ps.setString(4, v.getBranch());
+			ps.setString(5, v.getVehicleType());
+			ps.setDate(6,new java.sql.Date(v.getInsuranceExpiryDate().getTime()));
+			ps.setDate(7,new java.sql.Date(v.getLastServicedDate().getTime()));
+			ps.setDate(8, new java.sql.Date(v.getServiceDueDate().getTime()));
+			ps.setString(9, v.getStatus());
+			
+			
+			int rs = ps.executeUpdate();
+		} catch (SQLException e) {
+
+			e.printStackTrace();
+		} finally {
+			try {
+				con.close();
+			} catch (SQLException e) {
+
+				e.printStackTrace();
+			}
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	/*@Override
+	public void addVehicle(String id, String vehicleNumber) throws ParseException {
+		Connection con = ConnectionHandler.getConnection();
+		String sql = "insert into vehicle  values(?,?,?,?,?,?,?,?,?)";
+		try {
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setString(1, id);
+			ps.setString(2, vehicleNumber);
+			int rs = ps.executeUpdate();
+		} catch (SQLException e) {
+
+			System.out.println(e);
+		} finally {
+			try {
+				con.close();
+			} catch (SQLException e) {
+
+				System.out.println(e);
+			}
+		}
+
+	}*/
+}

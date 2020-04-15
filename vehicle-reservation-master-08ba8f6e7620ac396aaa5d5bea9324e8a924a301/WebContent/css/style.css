@@ -1,0 +1,286 @@
+<<<<<<< HEAD
+aside{
+	background:linear-gradient(#f29d4e,#ffe06e);
+float:left;
+height:650px; width:300px;
+hspace:5px;
+border:groove;
+border-color:#0000FF;
+=======
+aside {
+<<<<<<< HEAD
+	background: linear-gradient(#f29d4e, #ffe06e);
+=======
+	background: linear-gradient(#6ee314, #f2ff00);
+>>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+	float: left;
+	height: 650px;
+	width: 300px;
+	hspace: 5px;
+	border: groove;
+	border-color: #0000FF;
+>>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
+}
+
+<<<<<<< HEAD
+height:650px;
+border:double;
+border-color:#0a0a0a;
+=======
+section {
+	height: 650px;
+	border: double;
+<<<<<<< HEAD
+	border-color: #0a0a0a;
+=======
+	border-color: #FF0000;
+>>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+>>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
+}
+<<<<<<< HEAD
+.body {
+		width: 100%;
+        height:100%;
+		font-family: Arial, Helvetica, sans-serif;
+		background-image: url("../image/bg4.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed; 
+  background-size: cover;
+=======
+
+.body {
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../image/bg4.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+>>>>>>> 50a4cc2512b2c01fa927af4590fcd17127a6cf58
+}
+
+* {
+	box-sizing: border-box;
+}
+
+<<<<<<< HEAD
+nav {
+=======
+nav******** {
+>>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+	float: left;
+	width: 30%;
+	height: 300px;
+	background: #ccc;
+	padding: 20px;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+<<<<<<< HEAD
+
+#nav-menu{
+             
+                float: right;
+
+                margin-right: 10px;
+
+                margin-left:10px;
+
+                margin-top: 10px;
+
+=======
+#nav-menu {
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+>>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+<<<<<<< HEAD
+=======
+.tablealign {
+	width:70%;
+	cellspacing:30px;
+}
+.viewTable
+{
+	width:80%;
+	cellspacing:60px;
+}
+
+
+>>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+#head, #tagline {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+<<<<<<< HEAD
+
+.fieldContent{
+	font-size:20px;
+	color:#ffffff;
+}
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> bb1936e2e7a87ca1c84fbf196c98685e420094e6
+.approveImg
+{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZptT0mVeqV8i9GECeksLPZ8F4mDJ1640uuTzX_itGvPFFv0b&s");
+  background-color: #cccccc;
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+<<<<<<< HEAD
+  background-color: #7c807dF;
+=======
+}
+
+
+.divContent {
+  text-align: center;
+  font-size:30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#ffffff  ;
+}
+
+.editVehicle{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZptT0mVeqV8i9GECeksLPZ8F4mDJ1640uuTzX_itGvPFFv0b&s");
+  background-color: #cccccc;
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.viewVehiclesImg{
+  background-image: url("https://st4.depositphotos.com/13324256/22074/i/1600/depositphotos_220747038-stock-photo-close-view-black-automobile-background.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.approveText{
+	text-shadow: 2px 2px;
+}
+
+.editContent{
+  text-align: center;
+  font-size:30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #0000ff;
+}
+>>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
+
+.approveLink{
+	font-size: 20px;
+	color:#f2f5f3;
+}
+>>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+
+#h1-center {
+	text-align: center;
+}
+
+header {
+<<<<<<< HEAD
+	background-color: #7c807dF;
+=======
+	background-color: #FCF6F5FF;
+>>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+	height: 50px;
+	color: #ffffff;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #dcdede;
+	height: 20px;
+	font-weight: bold;
+}
+<<<<<<< HEAD
+marquee{
+
+                align:"left";
+
+                direction:"left";
+
+                scrolldelay:"10px";
+
+<<<<<<< HEAD
+                behavior="scroll";
+				background-color:#3bfc00;
+				width: 100%;
+}
+.table{
+	padding: 50px;	
+	font-weight: bold;
+	
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  font-size:25px;
+  font-weight: bold;
+	text-align: center;
+  
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+=======
+                behavior:"scroll";
+				background-color:#8a8884;
+
+}
+
+=======
+
+marquee {
+	align: "left";
+	direction: "left";
+	scrolldelay: "10px";
+	behavior: "scroll";
+	background-color: #8a8884;
+}
+>>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
+>>>>>>> 50a4cc2512b2c01fa927af4590fcd17127a6cf58
