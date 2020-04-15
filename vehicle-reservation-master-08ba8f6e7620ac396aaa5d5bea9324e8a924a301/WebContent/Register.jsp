@@ -9,163 +9,129 @@
 <title>REGISTRATION</title>
 
 <link href="./css/style.css" rel="Stylesheet" type="text/css" />
-<script src="./js/script.js" type="text/javascript" ></script>
+<script type="text/javascript" src="./js/script.js"></script>
 
 </head>
 
 <body class="body">
 
-	<header> <img src="./image/logo1.jpg" />
-	<h2>
-		<span id="head">VEHICLE RESERVATION SYSTEM</span>
-	</h2>
+	<header> <img src="./image/logo1.jpg" /> <span id="head">VEHICLE
+		RESERVATION SYSTEM</span>
 	<div></div>
 
 	</header>
 
-<<<<<<< HEAD
-	<form name="form" method="post" action="RegisterServlet" onsubmit="validate()">
-=======
-	<form name="registerForm" method="post" action="LoginRegisterServlet"
-		onsubmit="return validate();">
->>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
+	<form name="form" method="post" action="RegisterServlet"
+		onsubmit="return register(this);">
 
 		<table class="center">
 
 			<div>
 
-				<h1 id="h1-center">Registration Page</h1>
-				
+				<h1 id="h1-center">REGISTRATION PAGE</h1>
+
 				<tr>
 
-<<<<<<< HEAD
-					<td><label>UserName:</label></td>
-=======
-<<<<<<< HEAD
-					<td><label>UserId:</label></td>
-=======
-<<<<<<< HEAD
-					<td><label>USERNAME:</label></td>
-=======
-					<td><label>Vendor Id:</label></td>
->>>>>>> 3e62fd4945994d03a13a2bb4d6e9c5e40a7c952c
->>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
->>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
+					<td><label id="size"><b>UserId:</b></label></td>
 
-					<td><input type="text" placeholder="Enter Id" name="id" /></td>
+					<td><input type="text" id="txt" placeholder="Enter Id"
+						name="id" autocomplete="off" /></td>
 
 				</tr>
 
 				<tr>
 
-					<td><label>First Name:</label></td>
+					<td><label id="size"><b>First Name:</b></label></td>
 
-					<td><input type="text" placeholder="Enter First name"
-						name="firstName" /></td>
-
-				</tr>
-
-				<tr>
-
-					<td><label>Last Name:</label></td>
-
-					<td><input type="text" placeholder="Enter Last name"
-						name="lastName" /></td>
+					<td><input type="text" id="txt" placeholder="Enter First name"
+						name="firstName" autocomplete="off" /></td>
 
 				</tr>
 
 				<tr>
 
-					<td><label>Password:</label></td>
+					<td><label id="size"><b>Last Name:</b></label></td>
 
-					<td><input type="password" placeholder="Enter Password"
-						name="password" /></td>
-
-				</tr>
-				<tr>
-
-					<td><label>Confirm Password:</label></td>
-
-<<<<<<< HEAD
-					<td><input type="text" placeholder="Enter Confirm Password"
-						name="cpassword" /></td>
-=======
-					<td><input type="password"
-						placeholder="Enter Confirm Password" name="cpassword" /></td>
->>>>>>> f1ccdc709f6b4ecab41ab736a3084a8ed6945a9c
-
-				</tr>
-				<tr>
-
-					<td><label>Age:</label></td>
-
-					<td><input type="text" placeholder="Enter Age" name="age" /></td>
+					<td><input type="text" id="txt" placeholder="Enter Last name"
+						name="lastName" autocomplete="off" /></td>
 
 				</tr>
 
 				<tr>
 
-					<td><label>Gender:</label></td>
+					<td><label id="size"><b>Password:</b></label></td>
 
-					<td><select name="gender">
-							<option value="0">Select</option>
-							<option value="1">Male</option>
-							<option value="2">Female</option>
+					<td><input type="password" id="txt"
+						placeholder="Enter Password" name="password" autocomplete="off" /></td>
+
+				</tr>
+				<tr>
+
+					<td><label id="size"><b>Confirm Password:</b></label></td>
+
+					<td><input type="password" id="txt"
+						placeholder="Enter Confirm Password" name="cpassword"
+						autocomplete="off" /></td>
+
+				</tr>
+				<tr>
+
+					<td><label id="size"><b>Age:</b></label></td>
+
+					<td><input type="text" id="txt" placeholder="Enter Age"
+						name="age" autocomplete="off" /></td>
+
+				</tr>
+
+				<tr>
+
+					<td><label id="size"><b>Gender:</b></label></td>
+
+					<td><select name="gender" id="txt" autocomplete="off">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
 					</select></td>
 
 				</tr>
 
 				<tr>
 
-					<td><label>Contact Number:</label></td>
+					<td><label id="size"><b>Contact Number:</b></label></td>
 
-					<td><input type="text" placeholder="Enter Contact Number"
-						name="number" /></td>
+					<td><input type="text" id="txt"
+						placeholder="Enter Contact Number" name="number"
+						autocomplete="off" /></td>
 
 				</tr>
 
 				<tr>
 
-					<td><label>Email Id:</label></td>
+					<td><label id="size"><b>Email Id:</b></label></td>
 
-					<td><input type="text" placeholder="Enter Email Id"
-						name="emailId" /></td>
+					<td><input type="text" id="txt" placeholder="Enter Email Id"
+						name="emailId" autocomplete="off" /></td>
 
 				</tr>
 				<tr>
-					<td>Security Question:</td>
-					<td><select name="question">
-							<option value="1">What is your first school's name?</option>
-							<option value="2">What is your first best friend's name?</option>
-							<option value="3">What is your favorite car's name?</option>
-							<option value="4">What is your first pet's name?</option>
-							<option value="5">What is your favorite holiday spot?</option>
-					</select></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="text" placeholder="Enter Answer"
-						name="answer" /></td>
-				</tr>
-				<tr>
-					<td><label>User Type:</label></td>
+					<td><label id="size"><b>User Type:</b></label></td>
 
-					<td><select name="usertype">
+					<td><select name="usertype" id="txt">
 							<option value="admin">Admin</option>
 							<option value="user">User</option>
 					</select></td>
 				</tr>
-				<td><label>Branch:</label></td>
-
-				<td><input type="text" placeholder="Enter Branch" name="branch" /></td>
+				<th><label id="size"><b>Branch:</b></label></th>
+				<td><input type="text" id="txt" placeholder="Enter Branch"
+					name="branch" autocomplete="off" /></td>
 
 				</tr>
 
 				<tr>
 
-					<td><input type="submit" name="Register" value="Register"></input></td>
+					<td><input type="submit" class="button" name="Register"
+						id="size" value="REGISTER"></input></td>
 
-					<td><input type="reset" value="Clear"></input></td>
+					<td><input type="reset" class="button" id="size" value="CLEAR"></input></td>
 
 				</tr>
 			</div>

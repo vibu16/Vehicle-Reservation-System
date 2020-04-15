@@ -12,43 +12,51 @@
 
 </head>
 
-<body>
+<body class="body">
 
 	<header class="header"> <img src="./image/logo1.jpg" /> <span
 		id="head">VEHICLE RESERVATION SYSTEM</span> <a id="nav-menu"
-		href="Logout.jsp">Logout</a> <a id="nav-menu" href="Admin_Home.jsp">Home</a>
-	</header>
-	
+		class="button1" href="LogoutServlet"><b>LOGOUT</b></a> <a
+		id="nav-menu" class="button1" href="Admin_Home.jsp"><b>HOME</b></a> </header>
 	<marquee>
-		<h4>DISCOUNT OF 20% ON BOOKING TWO VEHICLES || DISCOUNT OF 50% ON
-			BOOKING FIVE VEHICLES.</h4>
+		<h4>10% discount on paying through SBI || Apply coupon promo05
+			for 5% discount.</h4>
 	</marquee>
-<<<<<<< HEAD
-	<aside>  </aside>
-	<section> <article>
-	<nav>
-	<ul>
-		<li><a href="AddVehicle.jsp">Add Vehicle</a></li>
-		<br>
-		<li><a href="ShowPendingServlet">Approve Login</a></li>
-		<br>
-		<li><a href="AdminViewVehicles.jsp">View Vehicle</a></li>
-	</ul>
-	</nav>
-=======
 
-	<section id="bgcolor"> <article>
-	<div class="headerhome">
-                                                <p>
-                                                <input type="submit" onClick="location.href='AddVehicle.jsp'" value="Add Vehicle" />
-                                                <p>
-                                                <input type="submit" onClick="location.href='ShowPendingListServlet'" value="Approve Login" />
-                                                <p>
-                                                <input type="submit" onClick="location.href='#'" value="View Vehicle" />
-       </div>
->>>>>>> 5d26f199f709f7d2627db4bbe2ac7b9ec34af443
-	</article> </section>
-
+	<table class="center">
+		<div>
+			<tr>
+				<td><a href="AddVehicle.jsp" class="button2" id="size"><b>ADD
+							VEHICLE</b></a></td>
+				<td></td>
+				<td></td>
+				<td><a href="AdminSearch.jsp" class="button2" id="size"><b>SEARCH
+							VEHICLE</b></a></td>
+				<td></td>
+				<td><a href="AdminViewBookingDetails" class="button2" id="size"><b>VIEW
+							BOOKED VEHICLE</b></a></td>
+			</tr>
+			<tr>
+				<td><a href="ShowPendingListServlet" class="button2" id="size"><b>APPROVE
+							LOGIN</b></a></td>
+				<td></td>
+				<td></td>
+				<td><a href="InsuranceEndDate" class="button2" id="size"><b>INSURANCE
+							END DATE</b></a></td>
+				<td></td>
+				<td><a href="AdminViewCancelDetails" class="button2" id="size"><b>VIEW
+							CANCELLED VEHICLE</b></a></td>
+			</tr>
+			<tr>
+				<td><a href="AdminViewVehicleServlet" class="button2" id="size"><b>VIEW
+							VEHICLE</b></a></td>
+				<td></td>
+				<td></td>
+				<td><a href="ServiceDueDate" class="button2" id="size"><b>SERVICE
+							DUE DATE</b></a></td>
+			</tr>
+		</div>
+	</table>
 
 	<footer> Copyrights@2019 </footer>
 
